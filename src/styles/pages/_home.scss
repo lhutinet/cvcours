@@ -2,7 +2,7 @@
     gap: 0.2rem;
 
     .homeContent {
-        background: linear-gradient(115deg, $color-1 50%, transparent 100%);
+        background: linear-gradient(115deg, $color-1 30%, transparent 100%);
         min-height: $min-height;
         width: 100%;
         border-radius: $borderRadius;
@@ -16,7 +16,7 @@
             position: absolute;
             height: 100%;
             width: inherit;
-            background: url("../../media/bigGates.jpg") no-repeat center/cover;
+            background: url("../../media/portraitFond.jpg") no-repeat center/cover;
             z-index: -1;
             filter: brightness(30%);
         }
