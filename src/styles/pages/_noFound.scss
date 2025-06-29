@@ -1,3 +1,5 @@
+@use '../settings' as *;
+
 .notFound {
     @include verticalCenter;
     height: 95vh;

@@ -1,3 +1,5 @@
+@use '../settings' as *;
+
 .knowledges {
     .knowledgesContent {
         min-height: $min-height;
