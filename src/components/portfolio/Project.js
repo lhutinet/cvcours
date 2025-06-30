@@ -11,17 +11,17 @@ class Project extends Component {
 	};
 
 	render() {
-		let { name, languagesIcons, source, info, picture, id } = this.props.item;
+		let { name, languagesIcons, source, info, picture } = this.props.item;
 
 		return (
 			<div className="project">
 				<div className="icons">
-					{languagesIcons.map((icon, id) => (
+					{languagesIcons.map((icon) => (
 						<i className={icon} key={icon}>
 							<span>
 								<img
 									src={icon}
-									key={id}
+									key={icon}
 									style={{ width: "20px", height: "20px" }}
 									onError={(e) => {
 										e.target.style.display = "none";
