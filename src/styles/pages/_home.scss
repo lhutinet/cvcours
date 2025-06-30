@@ -4,7 +4,7 @@
     gap: 0.2rem;
 
     .homeContent {
-        background: linear-gradient(115deg, $color-1 30%, transparent 100%);
+        background: linear-gradient(30deg, $color-1 20%, transparent 100%);
         min-height: $min-height;
         width: 100%;
         border-radius: $borderRadius;
@@ -20,7 +20,7 @@
             width: inherit;
             background: url("../../media/portraitFond.jpg") no-repeat center/cover;
             z-index: -1;
-            filter: brightness(30%);
+            filter: brightness(440px);
         }
 
         .content {

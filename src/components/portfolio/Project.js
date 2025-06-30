@@ -16,20 +16,18 @@ class Project extends Component {
 		return (
 			<div className="project">
 				<div className="icons">
-					{languagesIcons.map((icon) => (
-						<i className={icon} key={icon}>
-							<span>
-								<img
-									src={icon}
-									style={{ width: "20px", height: "20px" }}
-									onError={(e) => {
-										e.target.style.display = "none";
-									}}
-									alt=""
-								/>
-							</span>
-						</i>
-					))}
+					{languagesIcons.map((icon) =>
+						icon.includes("fa-") ? (
+							<i className={icon} key={icon}></i>
+						) : (
+							<img
+								key={icon}
+								src={icon}
+								style={{ width: "20px", height: "20px" }}
+								alt=""
+							/>
+						)
+					)}
 				</div>
 
 				<h3>{name}</h3>
