@@ -16,7 +16,7 @@ class Project extends Component {
 		return (
 			<div className="project">
 				<div className="icons">
-					{languagesIcons.map((icon) => (
+					{languagesIcons.map((icon, id) => (
 						<i className={icon} key={icon}>
 							<span>
 								<img
