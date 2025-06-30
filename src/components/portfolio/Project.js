@@ -26,6 +26,7 @@ class Project extends Component {
 									onError={(e) => {
 										e.target.style.display = "none";
 									}}
+									alt=""
 								/>
 							</span>
 						</i>
