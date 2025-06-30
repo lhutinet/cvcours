@@ -21,7 +21,6 @@ class Project extends Component {
 							<span>
 								<img
 									src={icon}
-									key={icon}
 									style={{ width: "20px", height: "20px" }}
 									onError={(e) => {
 										e.target.style.display = "none";
