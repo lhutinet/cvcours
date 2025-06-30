@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nova+Round&display=swap');
 
 $font-1: "Nova Round", cursive;
-$font-2: "Doris", sans-serif;
+$font-2: "Dosis", sans-serif;
 $font-3: "Josefin Sans", serif;
-
 $color-1: #513d8d;
 $color-2: #4e57b1;
 $color-3: rgb(99, 164, 233);
@@ -15,6 +14,7 @@ $black: #333;
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
 $min-height: 95vh;
+
 
 @mixin verticalCenter {
     display: flex;

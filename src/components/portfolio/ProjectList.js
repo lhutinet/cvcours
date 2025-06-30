@@ -6,12 +6,14 @@ class ProjectList extends Component {
 	state = {
 		projects: portfolioData,
 		radios: [
-			{ id: 1, value: "javascript" },
-			{ id: 2, value: "css" },
-			{ id: 3, value: "react" },
-			{ id: 5, value: "wix" },
-			{ id: 5, value: "hostinger" },
-			{ id: 5, value: "code" },
+			{ id: 1, value: "tous" },
+			{ id: 2, value: "code" },
+			{ id: 3, value: "wix" },
+			{ id: 4, value: "hostinger" },
+			{ id: 5, value: "javascript" },
+			{ id: 6, value: "css" },
+			{ id: 7, value: "react" },
+			{ id: 8, value: "vuejs" },
 		],
 		selectedRadio: "javascript",
 	};
